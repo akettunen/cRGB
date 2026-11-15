@@ -106,7 +106,7 @@ def main():
         frames += 1
         if now - last >= 0.01: # fps upd per millisec
             try:
-                root.title(f"cubergb - {frames / (now - last):.1f} FPS")
+                root.title(f"cRGB - {frames / (now - last):.1f} FPS")
             except Exception:
                 break
             frames = 0
